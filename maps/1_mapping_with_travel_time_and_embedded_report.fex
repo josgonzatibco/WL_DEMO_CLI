@@ -1,0 +1,94 @@
+ENGINE INT CACHE SET ON
+SET PAGE-NUM=NOLEAD
+SET SQUEEZE=ON
+-DEFAULTH &WF_HTMLENCODE=ON;
+SET HTMLENCODE=&WF_HTMLENCODE
+SET JSURLS = '/ibi_apps/tools/portalcanvas/iframeinterface.js'
+
+SET HTMLCSS=ON
+-DEFAULTH &WF_EMPTYREPORT=ON;
+SET EMPTYREPORT=&WF_EMPTYREPORT
+
+SET EMBEDHEADING=ON
+SET GRAPHDEFAULT=OFF
+
+
+EMBED BEGIN PCHOLD FORMAT JSCHART
+
+EMBED COMPONENT AS TableChart_2
+-INCLUDE IBFS:/WFC/Repository/Demo_93/maps/_ddMap2Fex.fex
+
+
+EMBED MAIN
+GRAPH FILE SYSCOLUM
+-* Created by Designer for Graph
+SUM CNT.TBNAME
+IF READLIMIT EQ 1
+ON GRAPH PCHOLD FORMAT JSCHART
+ON GRAPH SET VZERO OFF
+ON GRAPH SET LOOKGRAPH BUBBLEMAP
+ON GRAPH SET AUTOFIT ON
+ON GRAPH SET STYLE *
+INCLUDE=IBFS:/WFC/Global/Themes/Standard/Default/theme.sty,$
+TYPE=REPORT, ARREPORTSIZE=DIMENSION, ARFILTER_TARGET='*', CHART-LOOK=com.ibi.geo.map, ARGRAPHENGINE=JSCHART, $
+TYPE=DATA, COLUMN=N1, BUCKET=NULL, $;
+*GRAPH_SCRIPT
+
+*GRAPH_JS
+*COMPONENT TableChart_2
+"component": {
+    "path": "IBFS:/WFC/Repository/Demo_93/maps/_ddMap2Fex.fex",
+    "visible": true,
+    "opacity": 1.0,
+    "title": "Sales by City"
+}
+*END
+*GRAPH_JS_FINAL
+"extensions": {
+    "com.ibi.geo.map": {
+        "bookmarks": {
+            "index": 1
+        },
+        "locate": {
+            "create": true
+        },
+        "layers": {
+            "create": true,
+            "visible":true
+        },
+        "discover": {
+             "create": true
+        },    
+        "legend": {
+            "index": 1
+        },
+        "interaction": {
+            "members": {
+                "location": {
+                    "create": true
+                },
+                "measurement": {
+                    "create": true
+                },
+                "direction": {
+                    "create": true
+                }
+            },
+            "index": 1
+        },
+        "baseMapInfo": {
+            "customBaseMaps":                 [
+                    {
+                        "ibiBaseLayer": "streets-night-vector"
+                    }
+                ]
+        },        "theme" : "light"
+    }
+}
+
+*END
+ENDSTYLE
+END
+EMBED END
+
+

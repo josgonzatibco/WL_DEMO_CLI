@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ibx-res-bundle name="page_res.xml">
+	<pgx-meta>
+		<pgx-version>1.3</pgx-version>
+		<pgx-mode>MODE_ASSEMBLE</pgx-mode>
+		<pgx-hash>0fc03299d85e89d0d10c58a25a96f4c3112f7a3e</pgx-hash>
+		<pgx-page-defaults>
+			<pgx-filter-defaults
+			    label-position="top"
+			    label-alignment="center"
+			    label-split="auto"
+			    label-width="max"
+			    first-day="0"
+			>
+		</pgx-filter-defaults>
+	</pgx-page-defaults>
+</pgx-meta>
+<string-file src="page.prop?IBFS_format=pgx"/>
+<strings></strings>
+<styles></styles>
+<markup>
+	<markup-block>
+		<div class="pd-page-wrapper">
+			<div data-ibx-type="pdPage" data-ibxp-title="@STR_PAGE_HEADING" data-ibxp-description="@STR_PAGE_DESCRIPTION" data-ibxp-show-header="true" data-ibxp-initial-auto-load="true" data-ibxp-show-toolbar="true" data-ibxp-show-refresh="true" data-ibxp-enable-bookmarks="true" data-ibxp-show-export="true" data-ibxp-show-pdf="true" data-ibxp-show-pdf-landscape="true" data-ibxp-show-image="true" data-ibxp-filter-type="bottom" data-ibxp-filter-open="true" data-ibxp-filter-width="" data-ibxp-theme="IBFS:/WFC/Global/Themes/Standard/Default/theme.css" data-ibxp-default-content-theme="" data-ibxp-size-class="pd-style-heading3" data-ibxp-ss-id="PAGE-L9PSULIJ1RRCYMJF4294" data-ibxp-custom-class="" data-ibxp-hidden="false" data-ibxp-workbook="false" data-ibxp-show-embedded-js="true" data-ibxp-show-embedded-css="true" data-ibxp-max-width="">
+				<div data-ibx-type="pdFilterGrid" data-ibxp-column-count="6" data-ibxp-ss-id="FILTERGRID-L9PSULQO16QGUZ1IK452" data-ibxp-color-class="pd-style-default-color" data-ibxp-custom-class="">
+					<div data-ibx-type="pdFilterCell" data-ibxp-justify="center" data-ibxp-col-span="1" data-ibxp-align="start" data-ibxp-locked="false" data-ibxp-ss-id="FILTERCELL-L9PSULQQ1GPTFQGL6942" data-ibxp-combined-filter="false" data-ibxp-combined-tooltip="" data-ibxp-custom-class="">
+						<div data-ibx-type="pdFilterPanel" data-ibxp-content-direction="column" data-ibxp-content-align="stretch" data-ibxp-label-align="center" data-ibxp-label-pos="top" data-ibxp-size="max" data-ibxp-split="auto" data-ibxp-user-settings-applied="undefined" data-ibxp-ss-id="FILTERPANEL-L9PSUXCX14ZRREYQR149" data-ibxp-custom-class="" data-ibxp-font-size-class="pd-style-normal" data-ibxp-max-height="" data-ibxp-amper-is-pill="false" data-ibxp-amper-type="amper_select" data-ibxp-amper-uid="AMPER-L9PSVW4914VNVKDYY370" data-ibxp-amper-label-text="@STR_FC_LABEL_2" data-ibxp-amper-first-day="0" data-ibxp-amper-search="false" data-ibxp-amper-selection-controls="false" data-ibxp-amper-display-all-for-single-val="true" data-ibxp-amper-name="PRODUCT_CATEGORY" data-ibxp-amper-format="A40V" data-ibxp-amper-comparator="" data-ibxp-amper-multiselect="true" data-ibxp-pagination-enabled="true" data-ibxp-enable-paging-trigger="50" data-ibxp-page-size="25">
+							<ds current="default">
+								<ds-values type="default"/>
+								<ds-values type="static"></ds-values>
+								<ds-values
+								type="dynamic"
+								subtype="dynamic"
+								master=""
+								value=""
+								valueDisplay=""
+								valueTooltip=""
+								    display=""
+								    displayDisplay=""
+								    displayTooltip=""
+								    sort="false"
+								    sortBy="value"
+								    sortOrder="ascending"
+								procedure=""
+								procedureValue=""
+								procedureValueDisplay=""
+								procedureValueTooltip=""
+								    procedureDisplay=""
+								    procedureDisplayDisplay=""
+								    procedureDisplayTooltip=""
+								    workspacePath=""
+								/>
+							</ds>
+						</div>
+					</div>
+					<div data-ibx-type="pdFilterCell" data-ibxp-justify="center" data-ibxp-col-span="1" data-ibxp-align="start" data-ibxp-locked="false" data-ibxp-ss-id="FILTERCELL-L9PSULQR1JIL226264720" data-ibxp-combined-filter="false" data-ibxp-combined-tooltip="" data-ibxp-custom-class="">
+						<div data-ibx-type="pdFilterPanel" data-ibxp-content-direction="column" data-ibxp-content-align="stretch" data-ibxp-label-align="center" data-ibxp-label-pos="top" data-ibxp-size="max" data-ibxp-split="auto" data-ibxp-user-settings-applied="undefined" data-ibxp-ss-id="FILTERPANEL-L9PSUXD81CY9GFO5X6489" data-ibxp-custom-class="" data-ibxp-font-size-class="pd-style-normal" data-ibxp-max-height="" data-ibxp-amper-is-pill="false" data-ibxp-amper-type="amper_select" data-ibxp-amper-uid="AMPER-L9PSVW4N1VRV75MI1192" data-ibxp-amper-label-text="@STR_FC_LABEL_3" data-ibxp-amper-first-day="0" data-ibxp-amper-search="false" data-ibxp-amper-selection-controls="false" data-ibxp-amper-display-all-for-single-val="true" data-ibxp-amper-name="MODEL" data-ibxp-amper-format="A50V" data-ibxp-amper-comparator="" data-ibxp-amper-multiselect="true" data-ibxp-pagination-enabled="true" data-ibxp-enable-paging-trigger="50" data-ibxp-page-size="25">
+							<ds current="default">
+								<ds-values type="default"/>
+								<ds-values type="static"></ds-values>
+								<ds-values
+								type="dynamic"
+								subtype="dynamic"
+								master=""
+								value=""
+								valueDisplay=""
+								valueTooltip=""
+								    display=""
+								    displayDisplay=""
+								    displayTooltip=""
+								    sort="false"
+								    sortBy="value"
+								    sortOrder="ascending"
+								procedure=""
+								procedureValue=""
+								procedureValueDisplay=""
+								procedureValueTooltip=""
+								    procedureDisplay=""
+								    procedureDisplayDisplay=""
+								    procedureDisplayTooltip=""
+								    workspacePath=""
+								/>
+							</ds>
+						</div>
+					</div>
+					<div data-ibx-type="pdFilterCell" data-ibxp-justify="center" data-ibxp-col-span="1" data-ibxp-align="start" data-ibxp-locked="false" data-ibxp-ss-id="FILTERCELL-L9PSULQR2MQTJBE0R1252" data-ibxp-combined-filter="false" data-ibxp-combined-tooltip="" data-ibxp-custom-class="">
+						<div data-ibx-type="pdFilterPanel" data-ibxp-content-direction="column" data-ibxp-content-align="stretch" data-ibxp-label-align="center" data-ibxp-label-pos="top" data-ibxp-size="max" data-ibxp-split="auto" data-ibxp-user-settings-applied="undefined" data-ibxp-ss-id="FILTERPANEL-L9PSUXDI1OP81FF984864" data-ibxp-custom-class="" data-ibxp-font-size-class="pd-style-normal" data-ibxp-max-height="" data-ibxp-amper-is-pill="false" data-ibxp-amper-type="amper_select" data-ibxp-amper-uid="AMPER-L9PSVW4Y1N9NZHMQP2253" data-ibxp-amper-label-text="@STR_FC_LABEL_4" data-ibxp-amper-first-day="0" data-ibxp-amper-search="false" data-ibxp-amper-selection-controls="false" data-ibxp-amper-display-all-for-single-val="true" data-ibxp-amper-name="BUSINESS_REGION" data-ibxp-amper-format="A15V" data-ibxp-amper-comparator="" data-ibxp-amper-multiselect="false" data-ibxp-pagination-enabled="true" data-ibxp-enable-paging-trigger="50" data-ibxp-page-size="25">
+							<ds current="default">
+								<ds-values type="default"/>
+								<ds-values type="static"></ds-values>
+								<ds-values
+								type="dynamic"
+								subtype="dynamic"
+								master=""
+								value=""
+								valueDisplay=""
+								valueTooltip=""
+								    display=""
+								    displayDisplay=""
+								    displayTooltip=""
+								    sort="false"
+								    sortBy="value"
+								    sortOrder="ascending"
+								procedure=""
+								procedureValue=""
+								procedureValueDisplay=""
+								procedureValueTooltip=""
+								    procedureDisplay=""
+								    procedureDisplayDisplay=""
+								    procedureDisplayTooltip=""
+								    workspacePath=""
+								/>
+							</ds>
+						</div>
+					</div>
+					<div data-ibx-type="pdFilterCell" data-ibxp-justify="center" data-ibxp-col-span="1" data-ibxp-align="start" data-ibxp-locked="false" data-ibxp-ss-id="FILTERCELL-L9PSULQS1N85Y1VSX3" data-ibxp-combined-filter="false" data-ibxp-combined-tooltip="" data-ibxp-custom-class="">
+						<div data-ibx-type="pdFilterPanel" data-ibxp-content-direction="column" data-ibxp-content-align="stretch" data-ibxp-label-align="center" data-ibxp-label-pos="top" data-ibxp-size="max" data-ibxp-split="auto" data-ibxp-user-settings-applied="undefined" data-ibxp-ss-id="FILTERPANEL-L9PSUXDQ10O6EPEGH2974" data-ibxp-custom-class="" data-ibxp-font-size-class="pd-style-normal" data-ibxp-max-height="" data-ibxp-amper-is-pill="false" data-ibxp-amper-type="amper_select" data-ibxp-amper-uid="AMPER-L9PSVW5G10S4Z697Q8636" data-ibxp-amper-label-text="@STR_FC_LABEL_5" data-ibxp-amper-first-day="0" data-ibxp-amper-search="false" data-ibxp-amper-selection-controls="false" data-ibxp-amper-display-all-for-single-val="true" data-ibxp-amper-name="STORE_TYPE" data-ibxp-amper-format="A11V" data-ibxp-amper-comparator="" data-ibxp-amper-multiselect="false" data-ibxp-pagination-enabled="true" data-ibxp-enable-paging-trigger="50" data-ibxp-page-size="25">
+							<ds current="default">
+								<ds-values type="default"/>
+								<ds-values type="static"></ds-values>
+								<ds-values
+								type="dynamic"
+								subtype="dynamic"
+								master=""
+								value=""
+								valueDisplay=""
+								valueTooltip=""
+								    display=""
+								    displayDisplay=""
+								    displayTooltip=""
+								    sort="false"
+								    sortBy="value"
+								    sortOrder="ascending"
+								procedure=""
+								procedureValue=""
+								procedureValueDisplay=""
+								procedureValueTooltip=""
+								    procedureDisplay=""
+								    procedureDisplayDisplay=""
+								    procedureDisplayTooltip=""
+								    workspacePath=""
+								/>
+							</ds>
+						</div>
+					</div>
+					<div data-ibx-type="pdFilterCell" data-ibxp-justify="center" data-ibxp-col-span="1" data-ibxp-align="start" data-ibxp-locked="false" data-ibxp-ss-id="FILTERCELL-L9PSVW9C1U37SDXA6575" data-ibxp-combined-filter="true" data-ibxp-combined-tooltip="Combined Filter From: ; To:" data-ibxp-custom-class="">
+						<div data-ibx-type="pdFilterPanel" data-ibxp-content-direction="column" data-ibxp-content-align="stretch" data-ibxp-label-align="center" data-ibxp-label-pos="top" data-ibxp-size="max" data-ibxp-split="auto" data-ibxp-user-settings-applied="undefined" data-ibxp-ss-id="FILTERPANEL-L9PT0EOL143B2Z3UF3022" data-ibxp-custom-class="" data-ibxp-font-size-class="pd-style-normal" data-ibxp-max-height="" data-ibxp-amper-is-pill="false" data-ibxp-amper-type="amper_range" data-ibxp-amper-uid="AMPER-L9PT0EOM18LRG1A3W1523" data-ibxp-amper-first-day="0" data-ibxp-amper-search="false" data-ibxp-amper-selection-controls="false" data-ibxp-amper-name="TIME_DATE" data-ibxp-amper-format="YYMD" data-ibxp-amper-comparator="" data-ibxp-amper-multiselect="false" data-ibxp-pagination-enabled="true" data-ibxp-enable-paging-trigger="50" data-ibxp-page-size="25" data-ibxp-amper1-name="TIME_DATE" data-ibxp-amper1-format="YYMD" data-ibxp-amper1-comparator="" data-ibxp-amper1-multiselect="false" data-ibxp-amper2-name="TIME_DATE_TO" data-ibxp-amper2-format="YYMD" data-ibxp-amper2-comparator="" data-ibxp-amper2-multiselect="false" data-ibxp-amper-range-label-text="@STR_FC_RANGE_LABEL_24">
+							<ds current="default">
+								<ds-values type="default"/>
+								<ds-values type="static"></ds-values>
+								<ds-values
+								type="dynamic"
+								subtype=""
+								master=""
+								value=""
+								valueDisplay=""
+								valueTooltip=""
+								    display=""
+								    displayDisplay=""
+								    displayTooltip=""
+								    sort="false"
+								    sortBy=""
+								    sortOrder=""
+								procedure=""
+								procedureValue=""
+								procedureValueDisplay=""
+								procedureValueTooltip=""
+								    procedureDisplay=""
+								    procedureDisplayDisplay=""
+								    procedureDisplayTooltip=""
+								    workspacePath=""
+								/>
+							</ds>
+							<ds current="default">
+								<ds-values type="default"/>
+								<ds-values type="static"></ds-values>
+								<ds-values
+								type="dynamic"
+								subtype=""
+								master=""
+								value=""
+								valueDisplay=""
+								valueTooltip=""
+								    display=""
+								    displayDisplay=""
+								    displayTooltip=""
+								    sort="false"
+								    sortBy=""
+								    sortOrder=""
+								procedure=""
+								procedureValue=""
+								procedureValueDisplay=""
+								procedureValueTooltip=""
+								    procedureDisplay=""
+								    procedureDisplayDisplay=""
+								    procedureDisplayTooltip=""
+								    workspacePath=""
+								/>
+							</ds>
+						</div>
+					</div>
+					<div data-ibx-type="pdFilterCell" data-ibxp-justify="center" data-ibxp-col-span="1" data-ibxp-align="start" data-ibxp-locked="false" data-ibxp-ss-id="FILTERCELL-L9PT0Z111QX78H7VM2948" data-ibxp-combined-filter="false" data-ibxp-combined-tooltip="" data-ibxp-custom-class="">
+						<div data-ibx-type="pdFilterPanel" data-ibxp-content-direction="column" data-ibxp-content-align="stretch" data-ibxp-label-align="center" data-ibxp-label-pos="none" data-ibxp-size="max" data-ibxp-split="auto" data-ibxp-user-settings-applied="undefined" data-ibxp-ss-id="FILTERPANEL-L9SO0FE31Z2OOI8RK672" data-ibxp-custom-class="" data-ibxp-font-size-class="pd-style-normal" data-ibxp-max-height=""
+						data-ibxp-unbound-type="unbound_control"
+						data-ibxp-unbound-subtype="unbound_schedule_button"
+						            data-ibxp-unbound-label-text="@STR_FC_LABEL_27"
+						            data-ibxp-unbound-layout-direction="row"
+						
+						
+						            data-ibxp-unbound-control-options="{&quot;text&quot;:&quot;Schedule Library distribution&quot;,&quot;uid&quot;:&quot;UNBOUND-FILTERPANEL-L9SO0FE31Z2OOI8RK672&quot;}"
+						            >
+						<ds current="default">
+							<ds-values type="default"/>
+							<ds-values type="static"></ds-values>
+							<ds-values
+							type="dynamic"
+							subtype="dynamic"
+							master=""
+							value=""
+							valueDisplay=""
+							valueTooltip=""
+							    display=""
+							    displayDisplay=""
+							    displayTooltip=""
+							    sort="false"
+							    sortBy="value"
+							    sortOrder="ascending"
+							procedure=""
+							procedureValue=""
+							procedureValueDisplay=""
+							procedureValueTooltip=""
+							    procedureDisplay=""
+							    procedureDisplayDisplay=""
+							    procedureDisplayTooltip=""
+							    workspacePath=""
+							/>
+						</ds>
+					</div>
+					<div data-ibx-type="pdFilterPanel" data-ibxp-content-direction="column" data-ibxp-content-align="stretch" data-ibxp-label-align="center" data-ibxp-label-pos="top" data-ibxp-size="max" data-ibxp-split="auto" data-ibxp-user-settings-applied="undefined" data-ibxp-ss-id="FILTERPANEL-L9SO3EIP1KRSO1SPQ192" data-ibxp-custom-class="" data-ibxp-font-size-class="pd-style-normal" data-ibxp-max-height=""
+					data-ibxp-unbound-type="unbound_control"
+					data-ibxp-unbound-subtype="unbound_dropdown"
+					            data-ibxp-unbound-label-text="@STR_FC_LABEL_28"
+					            data-ibxp-unbound-layout-direction="row"
+					
+					
+					            data-ibxp-unbound-control-options="{&quot;multiSelect&quot;:false,&quot;uid&quot;:&quot;UNBOUND-FILTERPANEL-L9SO3EIP1KRSO1SPQ192&quot;}"
+					            >
+					<ds current="static">
+						<ds-values type="default"/>
+						<ds-values type="static">
+							<ds-value value="MonthCategory" display="Revenue by Month and Category" selected=""/>
+							<ds-value value="CostSales" display="Cost vs Sales" selected=""/>
+							<ds-value value="RevenueRegion" display="Revenue by Region" selected=""/>
+						</ds-values>
+						<ds-values
+						type="dynamic"
+						subtype="dynamic"
+						master=""
+						value=""
+						valueDisplay=""
+						valueTooltip=""
+						    display=""
+						    displayDisplay=""
+						    displayTooltip=""
+						    sort="true"
+						    sortBy="value"
+						    sortOrder="ascending"
+						procedure=""
+						procedureValue=""
+						procedureValueDisplay=""
+						procedureValueTooltip=""
+						    procedureDisplay=""
+						    procedureDisplayDisplay=""
+						    procedureDisplayTooltip=""
+						    workspacePath=""
+						/>
+					</ds>
+				</div>
+			</div>
+		</div>
+		<!--endgrid-->
+		<div data-ibx-type="pdPageSection" data-ibxp-collapsed="false" data-ibxp-description="@STR_SECTION_DESCRIPTION_1" data-ibxp-collapsible="false" data-ibxp-ss-id="SECTION-L9PSULIJ2SN48ZQKI946" data-ibxp-custom-class="" data-ibxp-color-class="pd-style-default-color" data-ibxp-cell-height="60" data-ibxp-width="12">
+			<div data-ibx-type="pdContainer" data-ibxp-type="panel" data-ibxp-title="@STR_CONT_TITLE_8" data-ibxp-original-title="@STR_CONT_TITLE_ORIGINAL_9" data-ibxp-maximized="false" data-ibxp-show-title="true" data-ibxp-show-toolbar="true" data-ibxp-show-expand="true" data-ibxp-show-refresh="true" data-ibxp-lock-content="true" data-ibxp-es-path="" data-ibxp-es-lock-path="true" data-ibxp-es-flatten-list="false" data-ibxp-es-hide-tags="false" data-ibxp-es-initial-view="grid" data-ibxp-device-display="7" data-ibxp-carousel-interval="0" data-ibxp-carousel-rerun="false" data-ibxp-grid-x="0" data-ibxp-grid-y="0" data-ibxp-grid-width="6" data-ibxp-grid-height="7" data-ibxp-ss-id="CONTAINER-L9PSUW5212C66K0J8984" data-ibxp-custom-class="" data-ibxp-color-class="pd-style-default-color">
+				<div data-ibx-type="pdContent" data-ibxp-type="bip_launch" data-ibxp-title="@STR_PANE_TITLE_29" data-ibxp-original-title="@STR_PANE_TITLE_ORIGINAL_30" data-ibxp-ss-id="CONTENT-L9PSUW5F1077SH3E6318" data-ibxp-iframe-name="CONTENT-L9PSUW5F1077SH3E6318" data-ibxp-custom-class="" data-ibxp-style="IBFS:/WFC/Global/Themes/Standard/Default/theme.sty" data-ibxp-path="IBFS:/WFC/Repository/Demo_93/Small_Widgets/" data-ibxp-file="Category_Sales.fex"></div>
+			</div>
+			<div data-ibx-type="pdContainer" data-ibxp-type="panel" data-ibxp-title="@STR_CONT_TITLE_12" data-ibxp-original-title="@STR_CONT_TITLE_ORIGINAL_13" data-ibxp-maximized="false" data-ibxp-show-title="true" data-ibxp-show-toolbar="true" data-ibxp-show-expand="true" data-ibxp-show-refresh="true" data-ibxp-lock-content="true" data-ibxp-es-path="" data-ibxp-es-lock-path="true" data-ibxp-es-flatten-list="false" data-ibxp-es-hide-tags="false" data-ibxp-es-initial-view="grid" data-ibxp-device-display="7" data-ibxp-carousel-interval="0" data-ibxp-carousel-rerun="false" data-ibxp-grid-x="6" data-ibxp-grid-y="0" data-ibxp-grid-width="6" data-ibxp-grid-height="7" data-ibxp-ss-id="CONTAINER-L9PSUZOX1J4JQJE8B93" data-ibxp-custom-class="" data-ibxp-color-class="pd-style-default-color">
+				<div data-ibx-type="pdContent" data-ibxp-type="bip_launch" data-ibxp-title="@STR_PANE_TITLE_31" data-ibxp-original-title="@STR_PANE_TITLE_ORIGINAL_32" data-ibxp-ss-id="CONTENT-L9PSUZP6142GZVIHV3401" data-ibxp-iframe-name="CONTENT-L9PSUZP6142GZVIHV3401" data-ibxp-custom-class="" data-ibxp-style="IBFS:/WFC/Global/Themes/Standard/Default/theme.sty" data-ibxp-path="IBFS:/WFC/Repository/Demo_93/Small_Widgets/" data-ibxp-file="Revenue_by_Month_and_Category.fex"></div>
+			</div>
+			<div data-ibx-type="pdContainer" data-ibxp-type="panel" data-ibxp-title="@STR_CONT_TITLE_16" data-ibxp-original-title="@STR_CONT_TITLE_ORIGINAL_17" data-ibxp-maximized="false" data-ibxp-show-title="true" data-ibxp-show-toolbar="true" data-ibxp-show-expand="true" data-ibxp-show-refresh="true" data-ibxp-lock-content="true" data-ibxp-es-path="" data-ibxp-es-lock-path="true" data-ibxp-es-flatten-list="false" data-ibxp-es-hide-tags="false" data-ibxp-es-initial-view="grid" data-ibxp-device-display="7" data-ibxp-carousel-interval="0" data-ibxp-carousel-rerun="false" data-ibxp-grid-x="0" data-ibxp-grid-y="7" data-ibxp-grid-width="6" data-ibxp-grid-height="7" data-ibxp-ss-id="CONTAINER-L9PSVG9F1RANH2Y8Y4189" data-ibxp-custom-class="" data-ibxp-color-class="pd-style-default-color">
+				<div data-ibx-type="pdContent" data-ibxp-type="bip_launch" data-ibxp-title="@STR_PANE_TITLE_33" data-ibxp-original-title="@STR_PANE_TITLE_ORIGINAL_34" data-ibxp-ss-id="CONTENT-L9PSVG9Q1EPFSC1AX995" data-ibxp-iframe-name="CONTENT-L9PSVG9Q1EPFSC1AX995" data-ibxp-custom-class="" data-ibxp-style="IBFS:/WFC/Global/Themes/Standard/Default/theme.sty" data-ibxp-path="IBFS:/WFC/Repository/Demo_93/Small_Widgets/" data-ibxp-file="Average_Cost_vs_Revenue_Scatter.fex"></div>
+			</div>
+			<div data-ibx-type="pdContainer" data-ibxp-type="panel" data-ibxp-title="@STR_CONT_TITLE_20" data-ibxp-original-title="@STR_CONT_TITLE_ORIGINAL_21" data-ibxp-maximized="false" data-ibxp-show-title="true" data-ibxp-show-toolbar="true" data-ibxp-show-expand="true" data-ibxp-show-refresh="true" data-ibxp-lock-content="true" data-ibxp-es-path="" data-ibxp-es-lock-path="true" data-ibxp-es-flatten-list="false" data-ibxp-es-hide-tags="false" data-ibxp-es-initial-view="grid" data-ibxp-device-display="7" data-ibxp-carousel-interval="0" data-ibxp-carousel-rerun="false" data-ibxp-grid-x="6" data-ibxp-grid-y="7" data-ibxp-grid-width="6" data-ibxp-grid-height="7" data-ibxp-ss-id="CONTAINER-L9PSVO9T1XXWYNG7G340" data-ibxp-custom-class="" data-ibxp-color-class="pd-style-default-color">
+				<div data-ibx-type="pdContent" data-ibxp-type="bip_launch" data-ibxp-title="@STR_PANE_TITLE_35" data-ibxp-original-title="@STR_PANE_TITLE_ORIGINAL_36" data-ibxp-ss-id="CONTENT-L9PSVOA71UK1KG1CJ3200" data-ibxp-iframe-name="CONTENT-L9PSVOA71UK1KG1CJ3200" data-ibxp-custom-class="" data-ibxp-style="IBFS:/WFC/Global/Themes/Standard/Default/theme.sty" data-ibxp-path="IBFS:/WFC/Repository/Demo_93/Small_Widgets/" data-ibxp-file="Revenue_Product_Bar.fex"></div>
+			</div>
+		</div>
+		<!--endsections-->
+	</div>
+</div>
+</markup-block>
+<markup-block>
+<div class="pd-internal-stylesheet">
+																			.page-placeholder {margin-left:20px;}
+																			.PAGE-L9PSULIJ1RRCYMJF4294 .pd-regular-filter-wrapper .pd-filter-grid {padding:0px 10px;}
+																			.PAGE-L9PSULIJ1RRCYMJF4294 .pd-page-canvas {padding-top:10px;}
+																			.PAGE-L9PSULIJ1RRCYMJF4294 .pd-page-canvas .pd-page-acc-section:last-child .grid-stack.pd-top-section {margin-bottom:10px;}
+																			.PAGE-L9PSULIJ1RRCYMJF4294 .grid-stack.pd-page-section {margin:0px 10px 0px 10px;}
+																			.PAGE-L9PSULIJ1RRCYMJF4294 .grid-stack.pd-page-section &gt;.grid-stack-item &gt;.grid-stack-item-content {padding:10px;}
+																			.PAGE-L9PSULIJ1RRCYMJF4294 .grid-stack.pd-page-section &gt;.grid-stack-item &gt;.ui-resizable-e,
+																			.PAGE-L9PSULIJ1RRCYMJF4294 .grid-stack.pd-page-section &gt;.grid-stack-item &gt;.ui-resizable-se {right:5px;}
+																			.PAGE-L9PSULIJ1RRCYMJF4294 .grid-stack.pd-page-section &gt;.grid-stack-item &gt;.ui-resizable-s,
+																			.PAGE-L9PSULIJ1RRCYMJF4294 .grid-stack.pd-page-section &gt;.grid-stack-item &gt;.ui-resizable-se,
+																			.PAGE-L9PSULIJ1RRCYMJF4294 .grid-stack.pd-page-section &gt;.grid-stack-item &gt;.ui-resizable-sw {bottom:5px;}
+																			.PAGE-L9PSULIJ1RRCYMJF4294 .grid-stack.pd-page-section &gt;.grid-stack-item &gt;.ui-resizable-w,
+																			.PAGE-L9PSULIJ1RRCYMJF4294 .grid-stack.pd-page-section &gt;.grid-stack-item &gt;.ui-resizable-sw {left:5px;}
+																			.PAGE-L9PSULIJ1RRCYMJF4294 .grid-stack.pd-page-section &gt;.grid-stack-placeholder &gt;.placeholder-content {top:10px;right:10px;bottom:10px;left:10px;}
+																			.PAGE-L9PSULIJ1RRCYMJF4294 .grid-stack.pd-page-section &gt;.grid-stack-item.grid-stack-item-panel-in-panel.toolbar-hidden &gt;.ui-resizable-e,
+																			.PAGE-L9PSULIJ1RRCYMJF4294 .grid-stack.pd-page-section &gt;.grid-stack-item.grid-stack-item-panel-in-panel.toolbar-hidden &gt;.ui-resizable-se {right:-5px;}
+																			.PAGE-L9PSULIJ1RRCYMJF4294 .grid-stack.pd-page-section &gt;.grid-stack-item.grid-stack-item-panel-in-panel.toolbar-hidden &gt;.ui-resizable-s,
+																			.PAGE-L9PSULIJ1RRCYMJF4294 .grid-stack.pd-page-section &gt;.grid-stack-item.grid-stack-item-panel-in-panel.toolbar-hidden &gt;.ui-resizable-se,
+																			.PAGE-L9PSULIJ1RRCYMJF4294 .grid-stack.pd-page-section &gt;.grid-stack-item.grid-stack-item-panel-in-panel.toolbar-hidden &gt;.ui-resizable-sw {bottom:-5px;}
+																			.PAGE-L9PSULIJ1RRCYMJF4294 .grid-stack.pd-page-section &gt;.grid-stack-item.grid-stack-item-panel-in-panel.toolbar-hidden &gt;.ui-resizable-w,
+																			.PAGE-L9PSULIJ1RRCYMJF4294 .grid-stack.pd-page-section &gt;.grid-stack-item.grid-stack-item-panel-in-panel.toolbar-hidden &gt;.ui-resizable-sw {left:-5px;}
+																				
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+										</div>
+<!--endis-->
+<div class="pd-tzo"></div>
+</markup-block>
+<markup-block>
+<pgx-filters>
+	<![CDATA[W3sibmFtZSI6IlBST0RVQ1RfQ0FURUdPUlkiLCJmb3JtYXQiOiJBNDBWIiwibXVsdGlzZWxlY3QiOnRydWUsImNvbXBhcmF0b3IiOiIiLCJwYXJlbnQiOm51bGwsIm9wdGlvbnMiOnsidHlwZSI6ImFtcGVyX3NlbGVjdCIsImNvbnRlbnREaXJlY3Rpb24iOiJjb2x1bW4iLCJjb250ZW50QWxpZ24iOiJzdHJldGNoIiwibGFiZWxBbGlnbiI6ImNlbnRlciIsImxhYmVsUG9zIjoidG9wIiwic2l6ZSI6Im1heCIsInNwbGl0IjoiYXV0byIsIm1heEhlaWdodCI6IiIsInNzSWQiOiJGSUxURVJQQU5FTC1MOVBTVVhDWDE0WlJSRVlRUjE0OSIsImN1c3RvbUNsYXNzIjoiIiwibGFiZWxUZXh0IjpudWxsLCJhbXBlckN0cmxUb29sdGlwIjoiIiwiZ2xvYmFsTmFtZSI6IiIsImxheW91dERpcmVjdGlvbiI6IiIsIm9wdGlvbmFsIjp0cnVlLCJtdWx0aXBsZSI6dHJ1ZSwicGxhY2Vob2xkZXIiOiIiLCJzZWFyY2giOmZhbHNlLCJzZWxlY3Rpb25Db250cm9scyI6ZmFsc2UsInNob3dBbGwiOnRydWUsImRpc3BsYXlBbGxGb3JTaW5nbGVWYWwiOnRydWUsInVzZXJTZXR0aW5nc0FwcGxpZWQiOmZhbHNlLCJhbGxMYWJlbCI6IiIsImRlZmF1bHRWYWx1ZSI6IiIsImRlZmF1bHRWYWx1ZTIiOiIiLCJ1c2VyRGVmYXVsdFZhbHVlcyI6bnVsbCwidXNlckRlZmF1bHRWYWx1ZXMyIjpudWxsLCJzb3J0YWJsZSI6ZmFsc2UsImlzUGlubmVkIjpmYWxzZSwiaXNHVCI6ZmFsc2V9fSx7Im5hbWUiOiJNT0RFTCIsImZvcm1hdCI6IkE1MFYiLCJtdWx0aXNlbGVjdCI6dHJ1ZSwiY29tcGFyYXRvciI6IiIsInBhcmVudCI6eyJuYW1lIjoiUFJPRFVDVF9DQVRFR09SWSIsImZvcm1hdCI6IkE0MFYiLCJtdWx0aXNlbGVjdCI6dHJ1ZSwiY29tcGFyYXRvciI6IiJ9LCJvcHRpb25zIjp7InR5cGUiOiJhbXBlcl9zZWxlY3QiLCJjb250ZW50RGlyZWN0aW9uIjoiY29sdW1uIiwiY29udGVudEFsaWduIjoic3RyZXRjaCIsImxhYmVsQWxpZ24iOiJjZW50ZXIiLCJsYWJlbFBvcyI6InRvcCIsInNpemUiOiJtYXgiLCJzcGxpdCI6ImF1dG8iLCJtYXhIZWlnaHQiOiIiLCJzc0lkIjoiRklMVEVSUEFORUwtTDlQU1VYRDgxQ1k5R0ZPNVg2NDg5IiwiY3VzdG9tQ2xhc3MiOiIiLCJsYWJlbFRleHQiOm51bGwsImFtcGVyQ3RybFRvb2x0aXAiOiIiLCJnbG9iYWxOYW1lIjoiIiwibGF5b3V0RGlyZWN0aW9uIjoiIiwib3B0aW9uYWwiOnRydWUsIm11bHRpcGxlIjp0cnVlLCJwbGFjZWhvbGRlciI6IiIsInNlYXJjaCI6ZmFsc2UsInNlbGVjdGlvbkNvbnRyb2xzIjpmYWxzZSwic2hvd0FsbCI6dHJ1ZSwiZGlzcGxheUFsbEZvclNpbmdsZVZhbCI6dHJ1ZSwidXNlclNldHRpbmdzQXBwbGllZCI6ZmFsc2UsImFsbExhYmVsIjoiIiwiZGVmYXVsdFZhbHVlIjoiIiwiZGVmYXVsdFZhbHVlMiI6IiIsInVzZXJEZWZhdWx0VmFsdWVzIjpudWxsLCJ1c2VyRGVmYXVsdFZhbHVlczIiOm51bGwsInNvcnRhYmxlIjpmYWxzZSwiaXNQaW5uZWQiOmZhbHNlLCJpc0dUIjpmYWxzZX19LHsibmFtZSI6IkJVU0lORVNTX1JFR0lPTiIsImZvcm1hdCI6IkExNVYiLCJtdWx0aXNlbGVjdCI6ZmFsc2UsImNvbXBhcmF0b3IiOiIiLCJwYXJlbnQiOm51bGwsIm9wdGlvbnMiOnsidHlwZSI6ImFtcGVyX3NlbGVjdCIsImNvbnRlbnREaXJlY3Rpb24iOiJjb2x1bW4iLCJjb250ZW50QWxpZ24iOiJzdHJldGNoIiwibGFiZWxBbGlnbiI6ImNlbnRlciIsImxhYmVsUG9zIjoidG9wIiwic2l6ZSI6Im1heCIsInNwbGl0IjoiYXV0byIsIm1heEhlaWdodCI6IiIsInNzSWQiOiJGSUxURVJQQU5FTC1MOVBTVVhESTFPUDgxRkY5ODQ4NjQiLCJjdXN0b21DbGFzcyI6IiIsImxhYmVsVGV4dCI6bnVsbCwiYW1wZXJDdHJsVG9vbHRpcCI6IiIsImdsb2JhbE5hbWUiOiIiLCJsYXlvdXREaXJlY3Rpb24iOiIiLCJvcHRpb25hbCI6dHJ1ZSwibXVsdGlwbGUiOmZhbHNlLCJwbGFjZWhvbGRlciI6IiIsInNlYXJjaCI6ZmFsc2UsInNlbGVjdGlvbkNvbnRyb2xzIjpmYWxzZSwic2hvd0FsbCI6dHJ1ZSwiZGlzcGxheUFsbEZvclNpbmdsZVZhbCI6dHJ1ZSwidXNlclNldHRpbmdzQXBwbGllZCI6ZmFsc2UsImFsbExhYmVsIjoiIiwiZGVmYXVsdFZhbHVlIjoiIiwiZGVmYXVsdFZhbHVlMiI6IiIsInVzZXJEZWZhdWx0VmFsdWVzIjpudWxsLCJ1c2VyRGVmYXVsdFZhbHVlczIiOm51bGwsInNvcnRhYmxlIjpmYWxzZSwiaXNQaW5uZWQiOmZhbHNlLCJpc0dUIjpmYWxzZX19LHsibmFtZSI6IlNUT1JFX1RZUEUiLCJmb3JtYXQiOiJBMTFWIiwibXVsdGlzZWxlY3QiOmZhbHNlLCJjb21wYXJhdG9yIjoiIiwicGFyZW50IjpudWxsLCJvcHRpb25zIjp7InR5cGUiOiJhbXBlcl9zZWxlY3QiLCJjb250ZW50RGlyZWN0aW9uIjoiY29sdW1uIiwiY29udGVudEFsaWduIjoic3RyZXRjaCIsImxhYmVsQWxpZ24iOiJjZW50ZXIiLCJsYWJlbFBvcyI6InRvcCIsInNpemUiOiJtYXgiLCJzcGxpdCI6ImF1dG8iLCJtYXhIZWlnaHQiOiIiLCJzc0lkIjoiRklMVEVSUEFORUwtTDlQU1VYRFExME82RVBFR0gyOTc0IiwiY3VzdG9tQ2xhc3MiOiIiLCJsYWJlbFRleHQiOm51bGwsImFtcGVyQ3RybFRvb2x0aXAiOiIiLCJnbG9iYWxOYW1lIjoiIiwibGF5b3V0RGlyZWN0aW9uIjoiIiwib3B0aW9uYWwiOnRydWUsIm11bHRpcGxlIjpmYWxzZSwicGxhY2Vob2xkZXIiOiIiLCJzZWFyY2giOmZhbHNlLCJzZWxlY3Rpb25Db250cm9scyI6ZmFsc2UsInNob3dBbGwiOnRydWUsImRpc3BsYXlBbGxGb3JTaW5nbGVWYWwiOnRydWUsInVzZXJTZXR0aW5nc0FwcGxpZWQiOmZhbHNlLCJhbGxMYWJlbCI6IiIsImRlZmF1bHRWYWx1ZSI6IiIsImRlZmF1bHRWYWx1ZTIiOiIiLCJ1c2VyRGVmYXVsdFZhbHVlcyI6bnVsbCwidXNlckRlZmF1bHRWYWx1ZXMyIjpudWxsLCJzb3J0YWJsZSI6ZmFsc2UsImlzUGlubmVkIjpmYWxzZSwiaXNHVCI6ZmFsc2V9fSx7Im5hbWUiOiJUSU1FX0RBVEUiLCJmb3JtYXQiOiJZWU1EIiwibXVsdGlzZWxlY3QiOmZhbHNlLCJjb21wYXJhdG9yIjoiIiwicGFyZW50IjpudWxsLCJvcHRpb25zIjp7InR5cGUiOiJhbXBlcl9kYXRlIiwiY29udGVudERpcmVjdGlvbiI6ImNvbHVtbiIsImNvbnRlbnRBbGlnbiI6InN0cmV0Y2giLCJsYWJlbEFsaWduIjoiY2VudGVyIiwibGFiZWxQb3MiOiJ0b3AiLCJzaXplIjoibWF4Iiwic3BsaXQiOiJhdXRvIiwibWF4SGVpZ2h0IjoiIiwic3NJZCI6IkZJTFRFUlBBTkVMLUw5UFNVWERZMUJITzZZVFFMMjg5MiIsImN1c3RvbUNsYXNzIjoiIiwibGFiZWxUZXh0IjpudWxsLCJhbXBlckN0cmxUb29sdGlwIjoiIiwiZ2xvYmFsTmFtZSI6IiIsImxheW91dERpcmVjdGlvbiI6IiIsIm9wdGlvbmFsIjp0cnVlLCJtdWx0aXBsZSI6ZmFsc2UsInBsYWNlaG9sZGVyIjoiIiwic2VhcmNoIjpmYWxzZSwic2VsZWN0aW9uQ29udHJvbHMiOmZhbHNlLCJzaG93QWxsIjp0cnVlLCJkaXNwbGF5QWxsRm9yU2luZ2xlVmFsIjp0cnVlLCJ1c2VyU2V0dGluZ3NBcHBsaWVkIjpmYWxzZSwiYWxsTGFiZWwiOiIiLCJkZWZhdWx0VmFsdWUiOiIiLCJkZWZhdWx0VmFsdWUyIjoiIiwidXNlckRlZmF1bHRWYWx1ZXMiOm51bGwsInVzZXJEZWZhdWx0VmFsdWVzMiI6bnVsbCwic29ydGFibGUiOmZhbHNlLCJpc1Bpbm5lZCI6ZmFsc2UsImlzR1QiOmZhbHNlfX0seyJuYW1lIjoiVElNRV9EQVRFX1RPIiwiZm9ybWF0IjoiWVlNRCIsIm11bHRpc2VsZWN0IjpmYWxzZSwiY29tcGFyYXRvciI6IiIsInBhcmVudCI6bnVsbH1d]]>
+</pgx-filters>
+<!--endpgxfilters-->
+</markup-block>
+<markup-block>
+<pgx-interactions>
+	<![CDATA[W3siaWQiOiJJTlNULUw5U08wRkU4MUFMS1hKS1ZPMjMzIiwibmFtZSI6IlNjaGVkdWxlIExpYnJhcnkgZGlzdHJpYnV0aW9uIiwiZGlzYWJsZWQiOmZhbHNlLCJvYmplY3QiOnsidWlkIjoiVU5CT1VORC1GSUxURVJQQU5FTC1MOVNPMEZFMzFaMk9PSThSSzY3MiIsIm5hbWUiOiJTY2hlZHVsZSBMaWJyYXJ5IGRpc3RyaWJ1dGlvbiJ9LCJldmVudCI6eyJ1aWQiOiJjbGljay5VTkJPVU5ELUZJTFRFUlBBTkVMLUw5U08wRkUzMVoyT09JOFJLNjcyIiwibmFtZSI6InVuYm91bmRfZXZlbnRfY2xpY2sifSwiY2FzZXMiOlt7ImlkIjoiVEFTSy1MOVNPMEZFODJQSUQ1OERTMDE4NCIsIm5hbWUiOiJUYXNrIDEiLCJkaXNhYmxlZCI6ZmFsc2UsImFjdGlvbiI6eyJ1aWQiOiJhY3Rpb25fc2NoZWR1bGUiLCJuYW1lIjoiaW50ZXJhY3Rpb25zX2FjdGlvbl9zY2hlZHVsZSJ9LCJjb250ZW50Ijp7InBhdGgiOiJJQkZTOi9XRkMvUmVwb3NpdG9yeS9EZW1vXzkzLzFfY29tcG9zZV9kb2N1bWVudF8tX3JldmVudWVfYnlfcHJvZHVjdF9hbmRfc3RvcmUuZmV4IiwidGl0bGUiOiIxIENvbXBvc2UgRG9jdW1lbnQgLSBSZXZlbnVlIGJ5IFByb2R1Y3QgYW5kIFN0b3JlIiwiaGFuZGxlIjoiMWE4OGE2MzdfM2RhOV80MWEwX2I2NjRfYjlmNzEyM2NhNTE5XzYzODU0NDE1MCJ9LCJ0YXJnZXQiOnsidWlkIjoicGFuZWwiLCJuYW1lIjoiaW50ZXJhY3Rpb25zX3RhcmdldF9vdmVybGF5In0sIm1vZGUiOnsidWlkIjoiTElCUkFSWSIsIm5hbWUiOiJpbnRlcmFjdGlvbnNfdGFyZ2V0X2xpYnJhcnkifSwiY29udGFpbmVyIjp7InBhdGgiOiIiLCJ0aXRsZSI6IiJ9LCJjb25kaXRpb24iOnsidWlkIjoib2JqZWN0X2VtcHR5IiwibmFtZSI6IlNlbGVjdCBPYmplY3QiLCJjb21wYXJlIjoiZXF1YWwiLCJtdWx0aXNlbCI6ImFsbC1vZiIsInZhbHVlcyI6W119fV0sImV2ZW50cyI6W3sidWlkIjoiY2xpY2suVU5CT1VORC1GSUxURVJQQU5FTC1MOVNPMEZFMzFaMk9PSThSSzY3MiIsIm5hbWUiOiJ1bmJvdW5kX2V2ZW50X2NsaWNrIn1dLCJ2ZXJzaW9uIjp7Im1ham9yIjoxLCJtaW5vciI6MX0sImlzTmV3IjpmYWxzZX0seyJpZCI6IklOU1QtTDlTTzhPRzcxMTJWQ0pISFc2Mzg5IiwibmFtZSI6IkludGVyYWN0aW9uIDEiLCJkaXNhYmxlZCI6ZmFsc2UsIm9iamVjdCI6eyJ1aWQiOiJVTkJPVU5ELUZJTFRFUlBBTkVMLUw5U08zRUlQMUtSU08xU1BRMTkyIiwibmFtZSI6IkludGVyYWN0aW9uIC0gQ2hvb3NlIHJlcG9ydCIsInByb3BzIjp7ImNhbkhhdmVDb25kaXRpb24iOnRydWV9fSwiZXZlbnQiOnsidWlkIjoiY2hhbmdlLlVOQk9VTkQtRklMVEVSUEFORUwtTDlTTzNFSVAxS1JTTzFTUFExOTIiLCJuYW1lIjoidW5ib3VuZF9ldmVudF9jaGFuZ2UifSwiY2FzZXMiOlt7ImlkIjoiVEFTSy1MUjhHSFBQNjFGMko5OU40TDEyNjIiLCJuYW1lIjoiVGFzayA0IiwiZGlzYWJsZWQiOmZhbHNlLCJhY3Rpb24iOnsidWlkIjoiYWN0aW9uX2V4ZWN1dGVfanMiLCJuYW1lIjoiaW50ZXJhY3Rpb25zX2pzX2FjdGlvbiJ9LCJjb250ZW50Ijp7ImpzIjoibXlfdmFsaWRhdGlvbigpIn0sInRhcmdldCI6eyJ1aWQiOiJ0YXJnZXRfZW1wdHkiLCJuYW1lIjoiaW50ZXJhY3Rpb25zX3RhcmdldF9lbXB0eSJ9LCJtb2RlIjp7InVpZCI6Im1vZGVfZW1wdHkiLCJuYW1lIjoiaW50ZXJhY3Rpb25zX21vZGVfZW1wdHkifSwiY29udGFpbmVyIjp7InBhdGgiOiIiLCJ0aXRsZSI6IiJ9LCJjb25kaXRpb24iOnsidWlkIjoib2JqZWN0X2VtcHR5IiwibmFtZSI6IlNlbGVjdCBPYmplY3QiLCJjb21wYXJlIjoiZXF1YWwiLCJtdWx0aXNlbCI6ImFsbC1vZiIsInZhbHVlcyI6W119fSx7ImlkIjoiVEFTSy1MUjhHMkdQMDFLNlAyRFhMUzExMjYiLCJuYW1lIjoiVGFzayAzIiwiZGlzYWJsZWQiOmZhbHNlLCJhY3Rpb24iOnsidWlkIjoiYWN0aW9uX3J1bl9jb250ZW50IiwibmFtZSI6ImludGVyYWN0aW9uc19hY3Rpb25fcnVuX2NvbnRlbnQifSwiY29udGVudCI6eyJwYXRoIjoiSUJGUzovV0ZDL1JlcG9zaXRvcnkvRGVtb185My9TbWFsbF9XaWRnZXRzL1JldmVudWVfYnlfTW9udGhfYW5kX0NhdGVnb3J5LmZleCIsInRpdGxlIjoiUmV2ZW51ZSBieSBNb250aCBhbmQgQ2F0ZWdvcnkiLCJoYW5kbGUiOiIyMDQ0OGM5Nl84YzI3XzQxZWRfOWM5MF81YTdkNDc3N2UzNzNfMTg5MjA2ODk2OSJ9LCJ0YXJnZXQiOnsidWlkIjoiY29udGFpbmVyIiwibmFtZSI6ImludGVyYWN0aW9uc190YXJnZXRfY29udGFpbmVyIn0sIm1vZGUiOnsidWlkIjoibW9kZV9lbXB0eSIsIm5hbWUiOiJpbnRlcmFjdGlvbnNfbW9kZV9lbXB0eSJ9LCJjb250YWluZXIiOnsicGF0aCI6IkNPTlRFTlQtTDlQU1VaUDYxNDJHWlZJSFYzNDAxIiwidGl0bGUiOiJSZXZlbnVlIGJ5IE1vbnRoIGFuZCBDYXRlZ29yeTogUmV2ZW51ZSBieSBNb250aCBhbmQgQ2F0ZWdvcnkifSwiY29uZGl0aW9uIjp7InVpZCI6IlVOQk9VTkQtRklMVEVSUEFORUwtTDlTTzNFSVAxS1JTTzFTUFExOTIiLCJuYW1lIjoiSW50ZXJhY3Rpb24gLSBDaG9vc2UgcmVwb3J0IiwiY29tcGFyZSI6ImVxdWFsIiwibXVsdGlzZWwiOiJvbmUtb2YiLCJ2YWx1ZXMiOlt7InZhbHVlIjoiTW9udGhDYXRlZ29yeSIsImRpc3BsYXkiOiJSZXZlbnVlIGJ5IE1vbnRoIGFuZCBDYXRlZ29yeSIsInNlbGVjdGVkIjpmYWxzZX1dfX0seyJpZCI6IlRBU0stTDlTTzhSQzUxTTNKRjk5M00xMzY0IiwibmFtZSI6IlRhc2sgMSIsImRpc2FibGVkIjpmYWxzZSwiYWN0aW9uIjp7InVpZCI6ImFjdGlvbl9ydW5fY29udGVudCIsIm5hbWUiOiJpbnRlcmFjdGlvbnNfYWN0aW9uX3J1bl9jb250ZW50In0sImNvbnRlbnQiOnsicGF0aCI6IklCRlM6L1dGQy9SZXBvc2l0b3J5L0RlbW9fOTMvU21hbGxfV2lkZ2V0cy9BdmVyYWdlX0Nvc3Rfdl9TYWxlcy5mZXgiLCJ0aXRsZSI6IkF2ZXJhZ2UgQ29zdCB2IFNhbGVzIiwiaGFuZGxlIjoiN2Q0NWI3MmNfZGUyMF80MmYxX2I4MDdfZWRjOTU1NjAwYTI3XzE0OTc3NjgyOTgifSwidGFyZ2V0Ijp7InVpZCI6ImNvbnRhaW5lciIsIm5hbWUiOiJpbnRlcmFjdGlvbnNfdGFyZ2V0X2NvbnRhaW5lciJ9LCJtb2RlIjp7InVpZCI6Im1vZGVfZW1wdHkiLCJuYW1lIjoiaW50ZXJhY3Rpb25zX21vZGVfZW1wdHkifSwiY29udGFpbmVyIjp7InBhdGgiOiJDT05URU5ULUw5UFNVWlA2MTQyR1pWSUhWMzQwMSIsInRpdGxlIjoiUmV2ZW51ZSBieSBNb250aCBhbmQgQ2F0ZWdvcnk6IFJldmVudWUgYnkgTW9udGggYW5kIENhdGVnb3J5In0sImNvbmRpdGlvbiI6eyJ1aWQiOiJVTkJPVU5ELUZJTFRFUlBBTkVMLUw5U08zRUlQMUtSU08xU1BRMTkyIiwibmFtZSI6IlNlbGVjdCBPYmplY3QiLCJjb21wYXJlIjoiZXF1YWwiLCJtdWx0aXNlbCI6ImFsbC1vZiIsInZhbHVlcyI6W3sidmFsdWUiOiJDb3N0U2FsZXMiLCJkaXNwbGF5IjoiQ29zdFNhbGVzIn1dfX0seyJpZCI6IlRBU0stTDlTT0E2REQxRTJOOVczTzY0NTYyIiwibmFtZSI6IlRhc2sgMiIsImRpc2FibGVkIjpmYWxzZSwiYWN0aW9uIjp7InVpZCI6ImFjdGlvbl9ydW5fY29udGVudCIsIm5hbWUiOiJpbnRlcmFjdGlvbnNfYWN0aW9uX3J1bl9jb250ZW50In0sImNvbnRlbnQiOnsicGF0aCI6IklCRlM6L1dGQy9SZXBvc2l0b3J5L0RlbW9fOTMvU21hbGxfV2lkZ2V0cy9SZXZlbnVlX1JlZ2lvbl9CYXIuZmV4IiwidGl0bGUiOiJSZXZlbnVlIFJlZ2lvbiBCYXIiLCJoYW5kbGUiOiI4ZjAxMjE4Nl81MzhlXzRiZDJfYWE2Yl85ZTFjYmRjYWE1MzNfNTM3MTMzMTIyIn0sInRhcmdldCI6eyJ1aWQiOiJjb250YWluZXIiLCJuYW1lIjoiaW50ZXJhY3Rpb25zX3RhcmdldF9jb250YWluZXIifSwibW9kZSI6eyJ1aWQiOiJtb2RlX2VtcHR5IiwibmFtZSI6ImludGVyYWN0aW9uc19tb2RlX2VtcHR5In0sImNvbnRhaW5lciI6eyJwYXRoIjoiQ09OVEVOVC1MOVBTVVpQNjE0MkdaVklIVjM0MDEiLCJ0aXRsZSI6IlJldmVudWUgYnkgTW9udGggYW5kIENhdGVnb3J5OiBSZXZlbnVlIGJ5IE1vbnRoIGFuZCBDYXRlZ29yeSJ9LCJjb25kaXRpb24iOnsidWlkIjoiVU5CT1VORC1GSUxURVJQQU5FTC1MOVNPM0VJUDFLUlNPMVNQUTE5MiIsIm5hbWUiOiJTZWxlY3QgT2JqZWN0IiwiY29tcGFyZSI6ImVxdWFsIiwibXVsdGlzZWwiOiJhbGwtb2YiLCJ2YWx1ZXMiOlt7InZhbHVlIjoiUmV2ZW51ZVJlZ2lvbiIsImRpc3BsYXkiOiJSZXZlbnVlUmVnaW9uIn1dfX1dLCJldmVudHMiOlt7InVpZCI6ImNoYW5nZS5VTkJPVU5ELUZJTFRFUlBBTkVMLUw5U08zRUlQMUtSU08xU1BRMTkyIiwibmFtZSI6InVuYm91bmRfZXZlbnRfY2hhbmdlIn1dLCJ2ZXJzaW9uIjp7Im1ham9yIjoxLCJtaW5vciI6MX0sImlzTmV3IjpmYWxzZX1d]]>
+</pgx-interactions>
+<!--endpgxinteractions-->
+</markup-block>
+<markup-block>
+<pgx-wfd>
+	<pgx-wfd-path
+		path="IBFS:/WFC/Repository/Demo_93/Small_Widgets/Category_Sales.fex"
+		run="true"
+		runBD="true"
+	>
+	<pgx-wfd-amper
+		name="PRODUCT_CATEGORY"
+		format="A40V"
+		operation="OR"
+		multiselect="true"
+		comparator=""
+		defaultValue=""
+		persistent=""
+		alternate=""
+		
+	/>
+	<pgx-wfd-amper
+		name="MODEL"
+		format="A50V"
+		operation="OR"
+		multiselect="true"
+		comparator=""
+		defaultValue=""
+		persistent=""
+		alternate=""
+		
+	/>
+	<pgx-wfd-amper
+		name="BUSINESS_REGION"
+		format="A15V"
+		operation="OR"
+		multiselect="false"
+		comparator=""
+		defaultValue=""
+		persistent=""
+		alternate=""
+		
+	/>
+	<pgx-wfd-amper
+		name="STORE_TYPE"
+		format="A11V"
+		operation="OR"
+		multiselect="false"
+		comparator=""
+		defaultValue=""
+		persistent=""
+		alternate=""
+		
+	/>
+	<pgx-wfd-amper
+		name="TIME_DATE"
+		format="YYMD"
+		operation="OR"
+		multiselect="false"
+		comparator=""
+		defaultValue=""
+		persistent=""
+		alternate=""
+		
+	/>
+	<pgx-wfd-amper
+		name="TIME_DATE_TO"
+		format="YYMD"
+		operation="OR"
+		multiselect="false"
+		comparator=""
+		defaultValue=""
+		persistent=""
+		alternate=""
+		
+	/>
+</pgx-wfd-path>
+<pgx-wfd-path
+	path="IBFS:/WFC/Repository/Demo_93/Small_Widgets/Revenue_by_Month_and_Category.fex"
+	run="false"
+	runBD="true"
+>
+<pgx-wfd-amper
+	name="PRODUCT_CATEGORY"
+	format="A40V"
+	operation="OR"
+	multiselect="true"
+	comparator=""
+	defaultValue=""
+	persistent=""
+	alternate=""
+	
+/>
+<pgx-wfd-amper
+	name="MODEL"
+	format="A50V"
+	operation="OR"
+	multiselect="true"
+	comparator=""
+	defaultValue=""
+	persistent=""
+	alternate=""
+	
+/>
+<pgx-wfd-amper
+	name="BUSINESS_REGION"
+	format="A15V"
+	operation="OR"
+	multiselect="false"
+	comparator=""
+	defaultValue=""
+	persistent=""
+	alternate=""
+	
+/>
+<pgx-wfd-amper
+	name="STORE_TYPE"
+	format="A11V"
+	operation="OR"
+	multiselect="false"
+	comparator=""
+	defaultValue=""
+	persistent=""
+	alternate=""
+	
+/>
+<pgx-wfd-amper
+	name="TIME_DATE"
+	format="YYMD"
+	operation="OR"
+	multiselect="false"
+	comparator=""
+	defaultValue=""
+	persistent=""
+	alternate=""
+	
+/>
+<pgx-wfd-amper
+	name="TIME_DATE_TO"
+	format="YYMD"
+	operation="OR"
+	multiselect="false"
+	comparator=""
+	defaultValue=""
+	persistent=""
+	alternate=""
+	
+/>
+</pgx-wfd-path>
+<pgx-wfd-path
+	path="IBFS:/WFC/Repository/Demo_93/Small_Widgets/Average_Cost_vs_Revenue_Scatter.fex"
+	run="false"
+	runBD="true"
+>
+<pgx-wfd-amper
+	name="PRODUCT_CATEGORY"
+	format="A40V"
+	operation="OR"
+	multiselect="true"
+	comparator=""
+	defaultValue=""
+	persistent=""
+	alternate=""
+	
+/>
+<pgx-wfd-amper
+	name="MODEL"
+	format="A50V"
+	operation="OR"
+	multiselect="true"
+	comparator=""
+	defaultValue=""
+	persistent=""
+	alternate=""
+	
+/>
+<pgx-wfd-amper
+	name="BUSINESS_REGION"
+	format="A15V"
+	operation="OR"
+	multiselect="false"
+	comparator=""
+	defaultValue=""
+	persistent=""
+	alternate=""
+	
+/>
+<pgx-wfd-amper
+	name="STORE_TYPE"
+	format="A11V"
+	operation="OR"
+	multiselect="false"
+	comparator=""
+	defaultValue=""
+	persistent=""
+	alternate=""
+	
+/>
+<pgx-wfd-amper
+	name="TIME_DATE"
+	format="YYMD"
+	operation="OR"
+	multiselect="false"
+	comparator=""
+	defaultValue=""
+	persistent=""
+	alternate=""
+	
+/>
+<pgx-wfd-amper
+	name="TIME_DATE_TO"
+	format="YYMD"
+	operation="OR"
+	multiselect="false"
+	comparator=""
+	defaultValue=""
+	persistent=""
+	alternate=""
+	
+/>
+</pgx-wfd-path>
+<pgx-wfd-path
+	path="IBFS:/WFC/Repository/Demo_93/Small_Widgets/Revenue_Product_Bar.fex"
+	run="false"
+	runBD="true"
+>
+<pgx-wfd-amper
+	name="PRODUCT_CATEGORY"
+	format="A40V"
+	operation="OR"
+	multiselect="true"
+	comparator=""
+	defaultValue=""
+	persistent=""
+	alternate=""
+	
+/>
+<pgx-wfd-amper
+	name="MODEL"
+	format="A50V"
+	operation="OR"
+	multiselect="true"
+	comparator=""
+	defaultValue=""
+	persistent=""
+	alternate=""
+	
+/>
+<pgx-wfd-amper
+	name="BUSINESS_REGION"
+	format="A15V"
+	operation="OR"
+	multiselect="false"
+	comparator=""
+	defaultValue=""
+	persistent=""
+	alternate=""
+	
+/>
+<pgx-wfd-amper
+	name="STORE_TYPE"
+	format="A11V"
+	operation="OR"
+	multiselect="false"
+	comparator=""
+	defaultValue=""
+	persistent=""
+	alternate=""
+	
+/>
+<pgx-wfd-amper
+	name="TIME_DATE"
+	format="YYMD"
+	operation="OR"
+	multiselect="false"
+	comparator=""
+	defaultValue=""
+	persistent=""
+	alternate=""
+	
+/>
+<pgx-wfd-amper
+	name="TIME_DATE_TO"
+	format="YYMD"
+	operation="OR"
+	multiselect="false"
+	comparator=""
+	defaultValue=""
+	persistent=""
+	alternate=""
+	
+/>
+</pgx-wfd-path>
+</pgx-wfd>
+<!--endpgxwfd-->
+</markup-block>
+</markup>
+<scripts></scripts>
+</ibx-res-bundle>

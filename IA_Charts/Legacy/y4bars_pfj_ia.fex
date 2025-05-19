@@ -1,0 +1,79 @@
+
+ENGINE INT CACHE SET ON
+SET PAGE-NUM=NOLEAD
+-DEFAULTH &WF_HTMLENCODE=OFF;
+SET HTMLENCODE=&WF_HTMLENCODE
+
+SET ARGRAPHENGINE=JSCHART
+-DEFAULTH &WF_EMPTYREPORT=ON;
+SET EMPTYREPORT=&WF_EMPTYREPORT
+
+SET EMBEDHEADING=ON
+SET GRAPHDEFAULT=OFF
+-DEFAULTH &WF_ARVERSION=2;
+SET ARVERSION=&WF_ARVERSION
+
+-DEFAULTH &WF_STYLE_UNITS='PIXELS';
+-DEFAULTH &WF_STYLE_HEIGHT='405.0';
+-DEFAULTH &WF_STYLE_WIDTH='770.0';
+
+-DEFAULTH &WF_TITLE='WebFOCUS Report';
+GRAPH FILE ibisamp/ggsales
+-* Created by Info Assist for Graph
+SUM GGSALES.SALES01.UNITS
+GGSALES.SALES01.DOLLARS
+GGSALES.SALES01.BUDUNITS
+GGSALES.SALES01.BUDDOLLARS
+BY GGSALES.SALES01.CATEGORY
+ON GRAPH PCHOLD FORMAT PNG
+ON GRAPH SET VZERO OFF
+ON GRAPH SET UNITS &WF_STYLE_UNITS
+ON GRAPH SET HAXIS &WF_STYLE_WIDTH
+ON GRAPH SET VAXIS &WF_STYLE_HEIGHT
+ON GRAPH SET GRMERGE ADVANCED
+ON GRAPH SET GRMULTIGRAPH 0
+ON GRAPH SET GRLEGEND 0
+ON GRAPH SET GRXAXIS 1
+ON GRAPH SET LOOKGRAPH MULTI4Y
+ON GRAPH SET STYLE *
+*GRAPH_SCRIPT
+
+setPieDepth(0);
+setPieTilt(0);
+setDepthRadius(0); 
+setCurveFitEquationDisplay(false); 
+setPlace(true); 
+setAxisAssignment(getSeries(0), 0);
+setAxisAssignment(getSeries(5), 0); 
+setAxisAssignment(getSeries(1), 1);
+setAxisAssignment(getSeries(6), 1);
+setAxisAssignment(getSeries(2), 2);
+setAxisAssignment(getSeries(7), 2);
+setAxisAssignment(getSeries(3), 3);
+setAxisAssignment(getSeries(8), 3);
+setAlignMultiYBars(true);
+
+*END
+INCLUDE=IBFS:/FILE/IBI_HTML_DIR/ibi_themes/Warm.sty,$
+TYPE=REPORT, TITLETEXT=&WF_TITLE.QUOTEDSTRING, ORIENTATION=LANDSCAPE, $
+*GRAPH_SCRIPT
+
+setReportParsingErrors(false);
+setSelectionEnableMove(false);
+setAxisAssignment( $0, 0);
+setAxisAssignment( $1, 1);
+setAxisAssignment( $2, 2);
+setAxisAssignment( $3, 3);
+*GRAPH_JS_FINAL
+"pieProperties": {
+    "holeSize": "0%"
+},
+"agnosticSettings": {
+    "chartTypeFullName": "Bar_Multi_Y4"
+}
+
+*END
+ENDSTYLE
+END
+
+-RUN

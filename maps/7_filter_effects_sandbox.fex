@@ -1,0 +1,75 @@
+ENGINE INT CACHE SET ON
+SET PAGE-NUM=NOLEAD
+SET SQUEEZE=ON
+-DEFAULTH &WF_HTMLENCODE=ON;
+SET HTMLENCODE=&WF_HTMLENCODE
+
+SET HTMLCSS=ON
+-DEFAULTH &WF_EMPTYREPORT=ON;
+SET EMPTYREPORT=&WF_EMPTYREPORT
+
+SET EMBEDHEADING=ON
+SET GRAPHDEFAULT=OFF
+EMBED BEGIN PCHOLD FORMAT JSCHART
+EMBED COMPONENT AS TableChart_2
+GRAPH FILE SYSCOLUM
+SUM CNT.TBNAME
+IF RECORDLIMIT EQ 1
+ON GRAPH PCHOLD FORMAT JSCHART
+ON GRAPH SET LOOKGRAPH EXTENSION
+ON GRAPH SET STYLE *
+TYPE=REPORT, CHART-LOOK=com.ibi.geo.layer, $
+type=data, column=n1, bucket=null, $
+
+*GRAPH_JS_FINAL
+"extensions": {
+    "com.ibi.geo.layer": {
+        "overlayLayers":             [
+                {
+                    "ibiAddLayer": "ACS_Internet_Connectivity_Variables"
+                }
+            ],
+        "title": "ACS Internet Connectivity Variables"
+    }
+},
+"blaProperties": {
+    "seriesLayout": "stacked"
+}
+*END
+ENDSTYLE
+END
+
+EMBED MAIN
+
+GRAPH FILE SYSCOLUM
+-* Created by Designer for Graph
+SUM CNT.TBNAME
+IF READLIMIT EQ 1
+ON GRAPH PCHOLD FORMAT JSCHART
+ON GRAPH SET VZERO OFF
+ON GRAPH SET LOOKGRAPH BUBBLEMAP
+ON GRAPH SET AUTOFIT ON
+ON GRAPH SET STYLE *
+INCLUDE=IBFS:/WFC/Global/Themes/Standard/Default/theme.sty,$
+TYPE=REPORT, ARREPORTSIZE=DIMENSION, ARFILTER_TARGET='*', CHART-LOOK=com.ibi.geo.map, ARGRAPHENGINE=JSCHART, $
+TYPE=DATA, COLUMN=N1, BUCKET=NULL, $;
+*GRAPH_SCRIPT
+*GRAPH_JS_FINAL
+"extensions": {
+    "com.ibi.geo.map": {
+        "baseMapInfo": {
+            "customBaseMaps":                 [
+                    {
+                        "ibiBaseLayer": "gray-vector"
+                    }
+                ]
+        }
+    }
+}
+
+*END
+ENDSTYLE
+END
+EMBED END
+
+

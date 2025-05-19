@@ -1,0 +1,84 @@
+EMBED BEGIN PCHOLD FORMAT JSCHART
+EMBED COMPONENT
+-INCLUDE IBFS:/WFC/Repository/Demo_93/Portal_pages_assets/drilldown_reports/Shipment_by_State.fex
+EMBED COMPONENT
+-INCLUDE IBFS:/WFC/Repository/Demo_93/Portal_pages_assets/drilldown_reports/Shipment_by_City.fex
+EMBED MAIN
+GRAPH FILE SYSCOLUM
+"Shipment Quantity by States and Cities"
+SUM FST.TBNAME
+IF RECORDLIMIT EQ 1
+ON GRAPH HOLD FORMAT JSCHART
+ON GRAPH SET LOOKGRAPH BUBBLEMAP
+ON GRAPH SET AUTOFIT ON
+ON GRAPH SET EMBEDHEADING ON
+ON GRAPH SET STYLE *
+TYPE=REPORT, CHART-LOOK=com.ibi.geo.map, $
+TYPE=HEADING, JUSTIFY=LEFT, BACKCOLOR=RGB(248 248 248), $
+TYPE=HEADING, LINE=1, ITEM=1, OBJECT=TEXT, FONT='ARIAL', SIZE=14, COLOR=RGB(128 128 128), STYLE=BOLD, $
+
+TYPE=DATA, COLUMN=N1, BUCKET=NULL, $
+*GRAPH_JS_FINAL
+"extensions": {
+"com.ibi.geo.map": {
+"baseMapInfo": {
+"customBaseMaps": [
+{
+-*"ibiBaseLayer": "dark-gray"
+                        "ibiBaseLayer": "streets"
+}
+]
+},
+        "baseLayer": {
+-* Central Canada
+             "center": [-98.3321,47.6062], "zoom": 3
+-* Vancouver
+-*             "center": [-122.3321,47.6062], "zoom": 4
+-* Toronto
+-*             "center": [-74,40], "zoom": 4
+        },
+-*        "dynamicLayers" : [
+-*                {
+-*                    "type":"json-file",
+-*                    "load":true,
+-*                    "title":"Alerts out",
+-*                    "geometryType":"point",
+-*                    "path":"IBFS:/WFC/Repository/Aquilini_Brands/alerts_out.txt",
+-*                    "tooltips": ["origin_country","time_position","velocity","geo_altitude"]
+-*                },
+-*                {
+-*                    "type":"fex",
+-*                    "load":true,
+-*                    "step":2,
+-*                    "geometryType":"point",
+-*                    "parameters": [{"LISTVAL":"1-72,1"}],
+-*                    "title":"Flight simulator",
+-*                    "marker": {
+-*                        "visible": true,
+-*                        "size": "ICONSIZE",
+-*                        "shape": "PLANEICON",
+-*                        "rotation": "CHEADING"
+-*                    },
+-*                    "path":"/WFC/Repository/Aquilini_Brands/flight_step_layerjson.fex",
+-*                    "tooltips": ["DEST","ORIGIN","AIRCRAFT_TYPE", "ALTITUDE"]
+-*                }
+-*            ],
+         "legend": {
+            "visible": false,
+            "attachTo": "top-right",
+            "index":0
+         }
+		 ,"locate": { "visible" : true }
+-*		 ,"viewType":"3d"
+-*         ,"portalId":"13f14c7a25544a9d9c5c43f00ecf99a0"
+-*         ,"layersOrder": "as-is"
+
+}
+}
+
+END
+EMBED END
+-*"baseLayer": {
+-*"center": [-122.3321,47.6062], "zoom": 4
+-*}
+-*,

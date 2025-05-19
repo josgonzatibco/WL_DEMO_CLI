@@ -1,0 +1,56 @@
+-*INTERNAL_PROPERTIES$SampleData=false;OBJECTID=GLOBAL
+-*INTERNAL_PROPERTIES$GlobalRecordLimit=500;OBJECTID=GLOBAL
+-*INTERNAL_PROPERTIES$FieldDisplayMode=label;OBJECTID=GLOBAL
+-*INTERNAL_PROPERTIES$PrefixDisplayMode=;OBJECTID=GLOBAL
+
+-*COMPONENT=Define_CAR
+DEFINE FILE CAR
+ Median/D12.2=( CAR.BODY.DEALER_COST + CAR.BODY.RETAIL_COST ) / 2;
+ UL/D12.2=CAR.BODY.RETAIL_COST + ( CAR.BODY.RETAIL_COST  / 5) ;
+ LL/D12.2=CAR.BODY.DEALER_COST - ( CAR.BODY.DEALER_COST  / 5) ;
+END
+GRAPH FILE CAR
+SUM CAR.BODY.DEALER_COST
+CAR.BODY.RETAIL_COST
+Median
+UL
+LL
+BY COUNTRY
+ON GRAPH PCHOLD AS HOLD FORMAT HTML
+ON GRAPH SET GRAPHDEFAULT OFF
+ON GRAPH SET VZERO OFF
+ON GRAPH SET HAXIS 770
+ON GRAPH SET VAXIS 405
+ON GRAPH SET UNITS PIXELS
+ON GRAPH SET GRAPHEDIT OFF
+ON GRAPH SET LOOKGRAPH BOXPLOT
+ON GRAPH SET GRMERGE ADVANCED
+ON GRAPH SET GRMULTIGRAPH 0
+ON GRAPH SET GRLEGEND 0
+ON GRAPH SET GRXAXIS 1
+ON GRAPH SET GRAPHSTYLE *
+-*setGraphType(124);
+-*setGraphType(130);
+setTemplateFile("/images/tdg/template/IBISouthWestern.txt");
+setReportParsingErrors(false);
+setSelectionEnableMove(false);
+setPlace(true); 
+setTransparentBorderColor(getChartBackground(),true); 
+setTransparentBorderColor(getSeries(0),true);
+setTransparentBorderColor(getSeries(1),true);
+setTransparentBorderColor(getSeries(2),true);
+setTransparentBorderColor(getSeries(3),true);
+setTransparentBorderColor(getSeries(4),true);
+setTransparentBorderColor(getSeries(5),true);
+setTransparentBorderColor(getSeries(6),true);
+setTransparentBorderColor(getSeries(7),true);
+setTransparentBorderColor(getSeries(8),true);
+setTransparentBorderColor(getSeries(9),true);
+setTransparentBorderColor(getSeries(10),true);
+setDepthRadius(0);
+setDepthAngle(0);
+setDisplay(getY1MajorGrid(),false);
+setDisplay(getO1MajorGrid(),false);
+setBoxPlotType(0); 
+ENDSTYLE
+END

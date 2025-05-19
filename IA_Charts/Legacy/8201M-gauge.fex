@@ -1,0 +1,96 @@
+ENGINE INT CACHE SET ON
+SET PAGE-NUM=NOLEAD
+SET HTMLENCODE=OFF
+SET ARGRAPHENGINE=JSCHART
+SET EMBEDHEADING=ON
+SET GRAPHDEFAULT=OFF
+
+-DEFAULTH &WF_STYLE_UNITS='PIXELS';
+-DEFAULTH &WF_STYLE_HEIGHT='405.0';
+-DEFAULTH &WF_STYLE_WIDTH='770.0';
+
+-DEFAULTH &WF_TITLE='WebFOCUS Report';
+GRAPH FILE retail_samples/wf_retail_lite
+-* Created by Info Assist for Graph
+SUM WF_RETAIL_LITE.WF_RETAIL_SALES.QUANTITY_SOLD
+BY WF_RETAIL_LITE.WF_RETAIL_PRODUCT.PRODUCT_CATEGORY
+ON GRAPH PCHOLD FORMAT JSCHART
+ON GRAPH SET VZERO OFF
+ON GRAPH SET AUTOFIT ON
+ON GRAPH SET UNITS &WF_STYLE_UNITS
+ON GRAPH SET HAXIS &WF_STYLE_WIDTH
+ON GRAPH SET VAXIS &WF_STYLE_HEIGHT
+ON GRAPH SET GRMERGE ADVANCED
+ON GRAPH SET GRMULTIGRAPH 0
+ON GRAPH SET GRLEGEND 0
+ON GRAPH SET GRXAXIS 1
+ON GRAPH SET LOOKGRAPH GAUGE1
+ON GRAPH SET AUTOFIT ON
+ON GRAPH SET STYLE *
+*GRAPH_SCRIPT
+setPlace(true); 
+setPieDepth(0);
+setPieTilt(0);
+setDepthRadius(0); 
+setCurveFitEquationDisplay(false); 
+
+*END
+INCLUDE=IBFS:/FILE/IBI_HTML_DIR/ibi_themes/Warm.sty,$
+TYPE=REPORT, TITLETEXT=&WF_TITLE.QUOTEDSTRING, ORIENTATION=LANDSCAPE, $
+*GRAPH_SCRIPT
+
+setReportParsingErrors(false);
+setSelectionEnableMove(false);
+setPiesPerRow(3);
+setFontSizeAbsolute(getGaugeTitle(),true);
+setAutofit(getGaugeTitle(),false);
+setFontSizeInPoints(getGaugeTitle(),12);
+setPlaceResize(getGaugeTitle(),0);
+setFontSizeAbsolute(getGaugeValue(),true);
+setAutofit(getGaugeValue(),false);
+setFontSizeInPoints(getGaugeValue(),8);
+setPlaceResize(getGaugeValue(),0);
+setFillColor(getGaugeValue(),new Color(0,0,255));
+setTextFormatPreset(getGaugeValue(),8);
+setScaleMinAuto(getY1Axis(),false);
+setScaleMin(getY1Axis(),5.0);
+setFillColor(getY1Label(),new Color(32,0,32));
+setBorderColor(getGaugeMajorTick(),new Color(128,0,255));
+setBorderColor(getGaugeMinorTick(),new Color(255,0,128));
+setDisplay(getGaugeBand5(),false);
+setBorderColor(getGaugeBand4(),new Color(255,128,64));
+setBorderColor(getGaugeBand5(),new Color(0,160,160));
+setFillColor(getGaugeBand4(),new Color(255,128,64));
+setFillColor(getGaugeBand5(),new Color(0,127,192));
+setGaugeBandMax(getGaugeBand5(),1500000.0);
+setGaugeShowZeroLabel(false);
+setGaugeRelativeInnerRadius(0.9);
+setGaugeRelativeThickness(0.1);
+setFillColor(getGaugeTitle(),new Color(128,0,64));
+setGaugeTitlePosition(2);
+setGaugeBandMin(getGaugeBand2(),200000.0);
+setGaugeBandMin(getGaugeBand3(),400000.0);
+setGaugeBandMin(getGaugeBand4(),600000.0);
+setGaugeBandMin(getGaugeBand5(),800000.0);
+setGaugeBandMax(getGaugeBand1(),200000.0);
+setGaugeBandMax(getGaugeBand2(),400000.0);
+setGaugeBandMax(getGaugeBand3(),600000.0);
+setGaugeBandMax(getGaugeBand4(),800000.0);
+*GRAPH_JS_FINAL
+"pieProperties": {
+    "holeSize": "0%"
+},
+"yaxis": {
+    "labels": {
+        "font": "10pt ARIAL"
+    }
+},
+"agnosticSettings": {
+    "chartTypeFullName": "Special_Gauges"
+}
+
+*END
+ENDSTYLE
+END
+
+-RUN

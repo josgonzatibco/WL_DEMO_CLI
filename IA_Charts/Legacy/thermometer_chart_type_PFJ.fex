@@ -1,0 +1,36 @@
+-*INTERNAL_PROPERTIES$SampleData=false;OBJECTID=GLOBAL
+-*INTERNAL_PROPERTIES$GlobalRecordLimit=500;OBJECTID=GLOBAL
+-*INTERNAL_PROPERTIES$FieldDisplayMode=label;OBJECTID=GLOBAL
+-*INTERNAL_PROPERTIES$PrefixDisplayMode=;OBJECTID=GLOBAL
+
+GRAPH FILE CAR
+-* Created by Advanced Graph Assistant
+SUM CAR.BODY.DEALER_COST
+BY CAR.ORIGIN.COUNTRY NOPRINT
+BY CAR.COMP.CAR
+ON GRAPH PCHOLD AS HOLD FORMAT PNG
+ON GRAPH SET GRAPHDEFAULT OFF
+ON GRAPH SET VZERO OFF
+ON GRAPH SET GRMERGE ADVANCED
+ON GRAPH SET GRMULTIGRAPH 1
+ON GRAPH SET GRLEGEND 0
+ON GRAPH SET GRXAXIS 1
+ON GRAPH SET HAXIS 770
+ON GRAPH SET VAXIS 405
+ON GRAPH SET UNITS PIXELS
+ON GRAPH SET LOOKGRAPH THERMO
+ON GRAPH SET GRAPHSTYLE *
+setTemplateFile("/images/tdg/template/IBIDefault.txt");
+setReportParsingErrors(false);
+setSelectionEnableMove(false);
+setTextString(getTitle(),"ENGLAND");
+setDisplay(getTitle(),true);
+setTextString(getSubtitle(),"Test SubTitle");
+setDisplay(getSubtitle(),true);
+setTextString(getFootnote(),"Chart Footnote");
+setDisplay(getFootnote(),true);
+setFillColor(getChartBackground(),new Color(120,255,222));
+setPlace(true);
+ENDSTYLE
+END
+
